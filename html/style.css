@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'chineserocks';
+    src: url('fonts/chineserocks.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#clock {
+    position: absolute;
+    font-family: 'chineserocks', sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.7s ease, transform 0.7s ease, filter 0.7s ease;
+    filter: drop-shadow(0 0 0 rgba(0,0,0,0)); /* starts without glow */
+}
+
+/* Positions */
+.top-left      { top: 5%; left: 5%; text-align: left; }
+.top-center    { top: 5%; left: 50%; transform: translateX(-50%); text-align: center; }
+.top-right     { top: 16%; right: 9.9%; text-align: right; }
+.center-left   { top: 50%; left: 5%; transform: translateY(-50%); text-align: left; }
+.center        { top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; }
+.center-right  { top: 50%; right: 5%; transform: translateY(-50%); text-align: right; }
+.bottom-left   { bottom: 0.5%; left: 4.2%; text-align: left; }
+.bottom-center { bottom: 5%; left: 50%; transform: translateX(-50%); text-align: center; }
+.bottom-right  { bottom: 5%; right: 5%; text-align: right; }
