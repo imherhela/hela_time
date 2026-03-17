@@ -1,6 +1,6 @@
 # hela_time
 
-> A lightweight in-game clock for your RedM server — showing the current day and time, right on screen.
+A lightweight in-game clock for your RedM server — showing the current day and time, right on screen.
 
 ## Features
 
