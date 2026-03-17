@@ -2,6 +2,10 @@
 
 A lightweight in-game clock for your RedM server — showing the current day and time, right on screen.
 
+![RedM](https://img.shields.io/badge/RedM-Compatible-red?style=flat-square)
+![Lua](https://img.shields.io/badge/Language-Lua-blue?style=flat-square)
+![License](https://img.shields.io/badge/License-Free%20to%20Use-green?style=flat-square)
+
 ## Features
 
 - Displays the current **in-game day and time** in AM/PM format
