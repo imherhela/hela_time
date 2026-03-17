@@ -37,6 +37,4 @@ Config.Position = "bottom-left" -- default
 
 The script hooks into RedM's native time system and polls the current in-game time every minute, formatting it as `Day HH:MM AM/PM`. It also listens for radar visibility changes — if the radar is hidden (e.g. in cinematic mode), the clock hides with it.
 
-## License
-
-Free to use and modify for personal or server use. Made by ImHerHela.
+# Made by ImHerHela
