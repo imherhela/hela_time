@@ -39,4 +39,4 @@ The script hooks into RedM's native time system and polls the current in-game ti
 
 ## License
 
-Free to use and modify for personal or server use. Attribution appreciated but not required.
+Free to use and modify for personal or server use. Made by ImHerHela.
